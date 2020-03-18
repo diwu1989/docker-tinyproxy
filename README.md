@@ -1,9 +1,9 @@
 Docker Tinyproxy
 ================
 
-[![Stars](https://img.shields.io/docker/stars/travix/tinyproxy.svg)](https://hub.docker.com/r/travix/tinyproxy/)
-[![Pulls](https://img.shields.io/docker/pulls/travix/tinyproxy.svg)](https://hub.docker.com/r/travix/tinyproxy/)
-[![License](https://img.shields.io/github/license/Travix-International/docker-tinyproxy.svg)](https://github.com/Travix-International/docker-tinyproxy/blob/master/LICENSE)
+[![Stars](https://img.shields.io/docker/stars/diwu1989/tinyproxy-docker.svg)](https://hub.docker.com/r/diwu1989/tinyproxy-docker/)
+[![Pulls](https://img.shields.io/docker/pulls/diwu1989/tinyproxy-docker.svg)](https://hub.docker.com/r/diwu1989/tinyproxy-docker/)
+[![License](https://img.shields.io/github/license/diwu1989/tinyproxy-docker.svg)](https://github.com/diwu1989/tinyproxy-docker/blob/master/LICENSE)
 
 > Docker implementation of [TinyProxy](https://github.com/tinyproxy/tinyproxy)
 
