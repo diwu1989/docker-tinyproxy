@@ -2,7 +2,7 @@ FROM travix/base-alpine:3.5
 
 MAINTAINER Travix
 
-ENV TINYPROXY_VERSION=1.8
+ENV TINYPROXY_VERSION=1.10
 
 RUN adduser -D -u 2000 -h /var/run/tinyproxy -s /sbin/nologin tinyproxy tinyproxy \
   && apk --update add -t build-dependencies \
