@@ -24,8 +24,7 @@ RUN adduser -D -u 2000 -h /var/run/tinyproxy -s /sbin/nologin tinyproxy tinyprox
   && cd / \
   && rm -rf /tmp/tinyproxy \
   && apk del build-dependencies \
-  && apk add --no-cache curl \
-  && apk cache clean
+  && apk add --no-cache curl
 
 COPY tinyproxy.conf /etc/tinyproxy/tinyproxy.conf
 COPY docker-entrypoint.sh /docker-entrypoint.sh
